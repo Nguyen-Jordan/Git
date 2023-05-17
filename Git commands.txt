@@ -1,0 +1,17 @@
+git commit nom_branch^   // recuperer le commit parent ou precedent de la branch
+git commit nom_branch~2  // recuperer 2 commit precedent de la branch
+git reset HEAD~1 // retourne au commit precedent
+git revert HEAD // retourne a la branche distante precedant
+git cherry-pick [commit1] [commit2] // copie les commit especifie dans sa branche
+git rebase -i HEAD~4 // recupere les 4 dernier commit et on peux les ordonne et selectionné les commit aue veut
+git commit --amend // pour pouvoir faire des modifications
+git tag nom_tag nom_commit // tag est un pointeur
+git describe nom_branch // decrit la différence entre le commit et le tag le plus récent.
+git checkout HEAD~^2~2 // deplace Head element parent et 2eme parent et 2 commit inferieur
+
+one reorganise supression C5
+two reordonnee
+three 1 commitshow solution
+
+token: 
+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
